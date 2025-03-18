@@ -1,0 +1,76 @@
+/* Estilo básico para a página */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #6200ea;
+    padding: 20px 0;
+    color: white;
+}
+
+.main-title {
+    font-size: 2.5em;
+}
+
+.input-section {
+    margin-top: 30px;
+}
+
+.input-wrapper {
+    margin-bottom: 20px;
+}
+
+.input-name {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.button-add {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+}
+
+.button-add:hover {
+    background-color: #3700b3;
+}
+
+.name-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.name-list li {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.button-draw {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #03dac5;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+.button-draw:hover {
+    background-color: #018786;
+}
+
+.result-list {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #6200ea;
+}
